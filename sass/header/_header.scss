@@ -1,8 +1,66 @@
-  .navbar-nav {
+.mypage-header-group{
+  background-image: url("../Images/header-group.png");
+  &-head{
+    .navbar-header{
+      button{
+        .icon-bar{
+          background:white;
+        }
+      }
+    }
+    background: rgba(0, 0, 0, 0.7);
+      .navbar-nav {
     width: 100%;
     text-align: center;
     > li {
       float: none;
       display: inline-block;
+      a{
+        color:#b9b8b8;
+        font-size: 0.8em;
+      }
+      .icon{
+          padding:0px;
+          margin-top:15px;
+        }
     }
   }
+    @media screen and(max-width: 767px){
+  .navbar-nav {
+        width: auto;
+    text-align: initial;
+    > li {
+      display: block;
+    }
+  }
+}
+  }
+  &-baner{
+    &-dino{
+      position: relative;
+      min-height: 630px;
+      img{
+      position: absolute;
+      bottom: -45px;
+      }
+     @media screen and(max-width: 991px){
+       min-height: initial;
+        img{
+            display:none;
+           }
+     }
+    }
+    &-info{
+      .baner-info-title{
+        text-align: right;
+        color:white;
+      }
+      .baner-info-text{
+        font-size: 0.7em;
+        color:white;
+      }
+      .baner-info-button{
+      }
+    }
+  }
+}
