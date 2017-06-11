@@ -43,7 +43,8 @@ blockquote, q {
 .mypage-header-group {
   background-image: url("../Images/header-group.png"); }
   .mypage-header-group-head {
-    background: rgba(0, 0, 0, 0.7); }
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: solid 1px #9f9f9f; }
     .mypage-header-group-head .navbar-header button .icon-bar {
       background: white; }
     .mypage-header-group-head .navbar-nav {
@@ -64,23 +65,65 @@ blockquote, q {
         text-align: initial; }
         .mypage-header-group-head .navbar-nav > li {
           display: block; } }
-  .mypage-header-group-baner-dino {
-    position: relative;
+  .mypage-header-group-wrap {
+    position: relative; }
+  .mypage-header-group-baner {
     min-height: 630px; }
-    .mypage-header-group-baner-dino img {
-      position: absolute;
-      bottom: -45px; }
     @media screen and (max-width: 991px) {
-      .mypage-header-group-baner-dino {
-        min-height: initial; }
-        .mypage-header-group-baner-dino img {
-          display: none; } }
-  .mypage-header-group-baner-info .baner-info-title {
-    text-align: right;
-    color: white; }
-  .mypage-header-group-baner-info .baner-info-text {
-    font-size: 0.7em;
-    color: white; }
+      .mypage-header-group-baner {
+        min-height: initial; } }
+    .mypage-header-group-baner-dino {
+      position: absolute;
+      min-height: 630px;
+      max-width: 725px;
+      left: 0px; }
+      .mypage-header-group-baner-dino img {
+        position: absolute;
+        bottom: -41px; }
+      @media screen and (max-width: 991px) {
+        .mypage-header-group-baner-dino {
+          min-height: initial; }
+          .mypage-header-group-baner-dino img {
+            display: none; } }
+    .mypage-header-group-baner-info .baner-info-title {
+      text-align: right;
+      color: white;
+      margin-top: 220px; }
+    .mypage-header-group-baner-info .baner-info-text {
+      font-size: 0.9em;
+      color: white;
+      padding: 50px 0px; }
+    .mypage-header-group-baner-info .baner-info-buttons {
+      padding-bottom: 115px; }
+      .mypage-header-group-baner-info .baner-info-buttons button {
+        border: solid 1px white;
+        padding: 15px 45px; }
+      .mypage-header-group-baner-info .baner-info-buttons button:first-child {
+        color: white;
+        background: rgba(113, 113, 110, 0.6);
+        margin-right: 45px; }
+      .mypage-header-group-baner-info .baner-info-buttons button:last-child {
+        color: #434242;
+        background: white; }
+
+.mypage-products-group-button button {
+  font-size: 3em;
+  padding: 5px 20px;
+  color: white;
+  background: #63b63f;
+  border: none;
+  margin-top: 150px;
+  margin-bottom: 75px; }
+
+.mypage-products-group-galery .mypage-products-group-element {
+  margin-bottom: 75px; }
+  .mypage-products-group-galery .mypage-products-group-element-content h2 {
+    color: #549a35; }
+  .mypage-products-group-galery .mypage-products-group-element-content h2:hover {
+    color: #264817; }
+  .mypage-products-group-galery .mypage-products-group-element-content p {
+    margin-top: 15px;
+    font-size: 0.92em; }
 
 h1 {
   font-size: 3em; }
