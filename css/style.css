@@ -117,6 +117,17 @@ blockquote, q {
 
 .mypage-products-group-galery .mypage-products-group-element {
   margin-bottom: 75px; }
+  .mypage-products-group-galery .mypage-products-group-element-image img {
+    height: 100px;
+    width: 100px; }
+  .mypage-products-group-galery .mypage-products-group-element-image .hover-img {
+    display: none;
+    position: absolute;
+    opacity: 0.7;
+    top: 0px;
+    left: 15px; }
+  .mypage-products-group-galery .mypage-products-group-element-image img:hover + .hover-img {
+    display: block; }
   .mypage-products-group-galery .mypage-products-group-element-content h2 {
     color: #549a35; }
   .mypage-products-group-galery .mypage-products-group-element-content h2:hover {
