@@ -1,0 +1,30 @@
+.mypage-form-group{
+    background: url("../Images/form_fone.png");
+    &-title{
+        margin: 75px 0px;
+        color:white;
+        h1{
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+    }
+    &-input{
+        display: flex;
+        justify-content: center;
+        .input-group{
+            input{
+                background: rgba(255, 255, 255, 0.6);
+                border-radius: 0px;
+                border: none;
+            }
+            span{
+                button{
+                    border-radius: 0px;
+                    background: white;
+                    padding: 6px 20px;
+                }
+            }
+            margin-bottom: 75px;
+        }
+    }
+}
